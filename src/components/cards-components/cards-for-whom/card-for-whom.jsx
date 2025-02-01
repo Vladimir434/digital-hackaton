@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import s from './card-for-Whom.module.css'
+import s from './card-for-whom.module.css'
 const CardForWhom = ({img,name, subTitle}) => {
   return (
     <div className={s.for_whom_card}>
