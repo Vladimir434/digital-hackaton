@@ -1,0 +1,217 @@
+.main_wrapper {
+  width: auto;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+}
+
+.menu_wrap_2_card img {
+  opacity: 0.5;
+}
+
+.menu {
+  position: fixed;
+  width: 123px;
+  height: auto;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 99;
+}
+
+.menu_wrap_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.menu_wrap_card_1 {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5px;
+  padding-bottom: 27px;
+  order: 1;
+}
+.menu_wrap_card_1 a:first-child{
+  display: flex;
+}
+.menu_wrap_card_1 a:last-child{
+  color: #13cba0;
+  font-size: 16px;
+}
+.menu_wrap_card_1_btn {
+  background: rgba(68, 83, 113, .25);
+  border-radius: 10px;
+  height: 21px;
+  position: relative;
+  width: 38px;
+}
+
+.menu_wrap_card_1 h2 {
+  color: #13cba0;
+  font-size: 16px;
+}
+
+.menu_wrap_card_1_btn::before {
+  background-color: #fff;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 16px;
+  left: 2px;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+}
+
+.menu_wrap_card_2 {
+  display: flex;
+  column-gap: 5px;
+  order: 2;
+}
+
+.menu_wrap_card_3{
+  display: flex;
+  order: 3;
+}
+.elem_block{
+  position: relative;
+  display: flex;
+}
+.menu_wrap_2_elem h4 {
+  position: absolute;
+  right: 23px;
+  backdrop-filter: blur(10px);
+  background: hsla(0, 0%, 100%, .01);
+  border: 1px solid rgba(142, 62, 253, .3);
+  border-radius: .5rem;
+  color: #8e3efd;
+  text-align: end;
+  font-size: 7px;
+  padding: 8px 10px;
+  transition: opacity .3s ease;
+  width: max-content;
+  opacity: 0;
+}
+.menu_wrap_2_elem:hover h4 {
+  opacity: 1;
+}
+.spase {
+  width: 1px;
+  height: 10px;
+  background-color: #fff;
+}
+
+.menu_wrap_2_block_elems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px 0;
+  row-gap: 2px;
+}
+.menu_wrap_card_3 a{
+  display: flex;
+  position: relative;
+  margin-top: 10px;
+}
+.menu_wrap_card_3 h4{
+  position: absolute;
+  right: 23px;
+  backdrop-filter: blur(10px);
+  background: hsla(0, 0%, 100%, .01);
+  border: 1px solid rgba(142, 62, 253, .3);
+  border-radius: .5rem;
+  color: #8e3efd;
+  text-align: end;
+  font-size: 7px;
+  padding: 8px 10px;
+  transition: opacity .3s ease;
+  width: max-content;
+  opacity: 0;
+}
+.menu_wrap_card_3:hover h4{
+  opacity: 1;
+}
+
+@media (min-width:992px) {
+  .menu_wrap_card_1 a:last-child{
+    display: none;
+  }
+}
+@media (max-width:992px) {
+  .menu_wrap_card_1 a:first-child{
+    display: none;
+  }
+  .menu_wrap_card_1{
+    padding-bottom: 0;
+  }
+  .menu_wrap_card_1{
+    background-color: #5c497e;
+    clip-path: polygon(100% 0, 36.364% 0, 0 30.357%, 0 100%, 69.091% 100%, 100% 67.857%, 100% 0);
+    align-items: center;
+    justify-content: center;
+    padding: 16px 16px;
+  }
+  .menu_wrap_card_1{
+    order: 2;
+  }
+  .menu_wrap_card_2{
+    order: 1;
+  }
+  .menu_wrap_card_3{
+    order: 3;
+  }
+  .spase{
+    display: none;
+  }
+  .menu_wrap_2_elem h4{
+    display: none;
+  }
+  .menu_wrap_1{
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .menu_wrap_2_block_elems{
+    flex-direction: row ;
+    background-color: #5c497e;
+    gap: 24px;
+    clip-path: polygon(100% 0, 5.682% 0, 0 30.357%, 0 100%, 95.17% 100%, 100% 67.857%, 100% 0);
+    padding: 16px 20px;
+  }
+  .menu{
+    width: 310px;
+    top: auto;
+    bottom: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .menu_wrap_card_3 h4{
+    display: none;
+  }
+  .menu_wrap_card_3 a{
+    margin: 0;
+  }
+  .menu_wrap_card_3{
+    background-color: #5c497e;
+    clip-path: polygon(100% 0, 36.364% 0, 0 30.357%, 0 100%, 69.091% 100%, 100% 67.857%, 100% 0);
+    padding: 14px 14px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width:765px) {
+  .menu_wrap_1{
+    flex-direction: column;
+    row-gap: 4px;
+  }
+  .menu_wrap_card_1{
+    clip-path: polygon(24% 0%,100% 0%,100% 30%,100% 100%,0% 100%,0% 30%);
+    position: absolute;
+    top: 0;
+    right: 56px;
+  }
+  .menu_wrap_card_3{
+    order: 0;
+    clip-path: polygon(0% 0%, 80% 0%,100% 25%,100% 100%,0% 100%,0% 0%);
+  }
+}

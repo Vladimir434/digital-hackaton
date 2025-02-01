@@ -1,0 +1,25 @@
+.for_whom_card {
+  position: relative;
+  flex: 0 0 auto;
+  width: 275px;             
+  scroll-snap-align: start; 
+  padding: 19.2px 38.4px 40px 51.2px;
+  background-color: hsla(0, 0%, 100%, .03);
+    position: relative;
+  min-width: 224px;
+  height: 164px;
+  clip-path: polygon(77.72% 0, 67.779% 14.644%, 0.74% 14.644%, 0 84%, 7.889% 100%, 100% 100.316%, 100% 0, 100.72% 0);
+}
+.block_image{
+  position: absolute;
+  top: 3%;
+  right: 8%;
+}
+.card_text {
+  position: absolute;
+  top: 58%;
+}
+.card_text  h2{
+  color: #fff;
+  font-size: 18px;
+}

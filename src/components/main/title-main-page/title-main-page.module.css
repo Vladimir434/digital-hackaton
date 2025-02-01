@@ -1,0 +1,369 @@
+.background {
+  background-image: url(https://i.moscow/upload/lending/lct2024/9f0f8e.webp);
+  background-attachment: inherit;
+  max-width: 1297px;
+  max-height: 674px;
+  margin: 0 auto;
+  padding-left: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 674px;
+  margin-bottom: 25px;
+  background-position: center;
+  position: relative;
+  padding-top: 48px;
+  transition: all 0.3s ease;
+}
+
+.info_image {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  margin-bottom: 61px;
+}
+
+.title_wrapper{
+  position: relative;
+  max-width: 831px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.title {
+  padding: 0 28px;
+  max-width: 831px;
+  width: 100%;
+  height: 450px;
+  backdrop-filter: blur(32px);
+  background-color: hsla(0, 0%, 100%, .08);
+  clip-path: polygon(.059% .228%, 49.059% .228%, 51.941% 5.802%, 51.941% 19.34%, 62% 19.34%, 64.529% 24.232%, 64.529% 42.207%, 96.882% 42.207%, 100% 48.237%, 100% 74.516%, 43.765% 74.516%, 39.118% 83.504%, 39.118% 100%, 3.765% 100%, .059% 92.833%, .059% .228%);
+}
+
+.title p {
+  color: #fff;
+  height: 102px;
+  letter-spacing: 6px;
+  font-weight: 500;
+  font-size: 95px;
+}
+
+.title span {
+  color: #fff;
+  opacity: 0.5;
+  font-size: 123px;
+  font-weight: 500;
+}
+.title_block{
+  color:#fff;
+  display: flex;
+  background: hsla(0, 0%, 100%, .2) !important;
+  backdrop-filter: blur(32px);
+  justify-content: center;
+  align-items: center;
+  width:486px;
+  height: 98px;
+  top: 78.1%;
+  right: 0;
+  column-gap: 27px;
+  position: absolute;
+  clip-path: polygon(100% 31.383%, 100% 0, 6.062% 0, 0 32.181%, 0 64.362%, 0 100%, 94.088% 100%, 100% 68.617%, 100% 31.383%);
+}
+.title_block span:last-child{
+  display: inline-flex;
+}
+.container__wrapper_img{
+  max-width: 1297px;
+  background-image: url(https://i.moscow/upload/lending/lct2024/e30741.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto;
+  height: auto;
+  transition: all 0.3s ease;
+}
+.container_images{
+  max-width: 1245px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  column-gap: 8px;
+  margin-bottom: 80px
+}
+.container_image_block_1{
+  max-width: 210px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  border: 1px solid hsla(0, 0%, 100%, .18);
+  background: hsla(0, 0%, 100%, .04);
+  clip-path: polygon(100% 100%, 100% 0, 13.307% 0, 0 17.496%, 0 100%, 100% 100%);
+}
+.container_image_block_2{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  flex: 1;
+}
+.container_image_block_2 > div {
+  display: flex;
+  flex: auto;
+  min-width: 17%;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid hsla(0, 0%, 100%, .18);
+  background: hsla(0, 0%, 100%, .04);
+  backdrop-filter: blur(5rem);
+  padding: 10px 20px ;
+}
+.container_image_block_2 > div:last-child{
+  clip-path: polygon(100% 0, 0 0, 0 100%, 88.721% 100%, 100% 69.618%, 100% 0);
+}
+.container_image_block_2 > div:first-child{
+  display: none;
+  clip-path: polygon(100% 100%, 100% 0, 13.307% 0, 0 17.496%, 0 100%, 100% 100%);
+}
+.container_info_text h2{
+  font-size: 88px;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 16px;
+  line-height: 0.8;
+}
+.container_info_text p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 54px;
+  color: #fff;
+  text-align: center;
+}
+.container_image_card{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  max-width: 1297px;
+  row-gap: 25px;
+  padding: 0 25px;
+}
+.item_card_1{
+  position: relative;
+  max-width: 524px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item_card_1_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 254px;
+  padding: 26px 32px 31px 41px;
+  clip-path: polygon(0 100%, 84.558% 100%, 84.558% 78.681%, 89.105% 68.568%, 100% 68.568%, 100% 0, 6.837% 0, 0 11.361%, 0 100%);
+  background-color: hsla(0, 0%, 100%, .03);
+}
+.item_card_2_wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 254px;
+  padding: 26px 32px 31px 41px;
+  clip-path: polygon(0 100%, 84.558% 100%, 84.558% 78.681%, 89.105% 68.568%, 100% 68.568%, 100% 0, 6.837% 0, 0 11.361%, 0 100%);
+  background-color: hsla(0, 0%, 100%, .03);
+}
+.item_card_1 h2 {
+  font-size: 32px;
+}
+.item_card_1 p {
+  max-width: 451px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.item_card_1 h3 {
+  font-size: 14px;
+  opacity: 0.4;
+}
+.item_card_2{
+  position: relative;
+  max-width: 524px;
+  min-height: 249px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item_card_2 h2{
+  font-size: 32px;
+  font-weight: 400;
+}
+.item_card_2 p {
+  max-width: 317px;
+}
+.card_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 73%;
+  right: 0;
+  width: 14%;
+  height: 100%;
+  max-height: 70px;
+  background: hsla(0, 0%, 100%, .04);
+  clip-path: polygon(21% 0, 100% 0, 100% 76%, 76% 100%, 0 100%, 0 24%);
+  overflow: hidden;
+}
+@media (max-width:1166px) {
+  .item_card_1{
+    max-width: 483px;
+  }
+  .item_card_2{
+    max-width: 483px;
+  }
+}
+@media (max-width:1106px) {
+  .title_wrapper{
+    max-width: 658px;
+  }
+  .title{
+    height: 384px;
+  }
+  .title p {
+    font-size: 69px;
+    height: 91px;
+  }
+  .title span{
+    font-size: 93px;
+  } 
+  .title_block{
+    width: 380px;
+    height: 86px;
+  }
+  .title_block span:last-child{
+    width: 76px;
+    justify-content: flex-end;
+    overflow: hidden;
+  }
+  .container_image_block_2 >div{
+    padding: 5px 5px; 
+  }
+}
+@media (max-width:987px) {
+  .container__wrapper_img{
+    background-image: url(https://i.moscow/upload/lending/lct2024/5a02c8.jpg);
+    background-position: center;
+  }
+  .container_info_text{
+    margin-top: 48%;
+  }
+  .container_info_text h2{
+    font-size: 60px;
+    letter-spacing: 6px;
+  }
+  .container_image_card{
+    flex-direction: row;
+    column-gap: 10px;
+  }
+  .card_image {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+@media (max-width:975px) {
+  .background{
+    background-image: url(https://i.moscow/upload/lending/lct2024/f247ca.jpg);
+    height: 564px;
+  }
+}
+@media (max-width:952px) {
+  .container_image_block_2 > div {
+    padding: 0 0;
+  }
+}
+@media (max-width:884px) {
+  .container_info_text {
+    margin-top: 11%;
+    backdrop-filter: blur(8px);
+  }
+  .container_info_text h2{
+    font-size: 40px;
+    text-align: start;
+    letter-spacing: 2px;
+    padding: 0 25px;
+  }
+  .container_info_text p {
+    text-align: left;
+    padding: 0 25px;
+  }
+  .item_card_1 p {
+    max-width: 100%;
+    width: 100%;
+  }
+  .container_image_card{
+    flex-direction: column;
+  }
+  .item_card_1{
+    backdrop-filter: blur(12px);
+    max-width: 100%;
+    width: 100%;
+  }
+  .item_card_2{
+    backdrop-filter: blur(12px);
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width:785px) {
+  .background{
+    background-image: url(https://i.moscow/upload/lending/lct2024/bb516d.jpg);
+    background-position: top;
+    height: 550px;
+  }
+  .info_image{
+    display: none;
+  }
+  .title_wrapper{
+    max-width: 308px;
+    top: 50%;
+  }
+  .title{
+    height: 148px;
+    padding: 0 10px;
+  }
+  .title p {
+    font-size: 28px;
+    font-weight: 800;
+    height: 32px;
+    padding-top: 5px;
+  }
+  .title span {
+    font-size: 44px;
+  }
+  .title_block{
+    width: 302px;
+    height: 67px;
+    top: 107.1%;
+    left: 0;
+  }
+  .title_block span:first-child{
+    font-size: 12px;
+  }
+}
+@media  (max-width:775px) {
+  .container_image_block_1{
+    display: none;
+  }
+  .container_image_block_2 > div:first-child{
+    display: block;
+  }
+  .container_image_card{
+    padding: 0;
+  }
+}

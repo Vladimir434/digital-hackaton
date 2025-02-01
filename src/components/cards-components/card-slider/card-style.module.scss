@@ -1,0 +1,84 @@
+.elem {
+  background-color: #351e58;
+  width: 100%;
+  height: 700px;
+  clip-path: polygon(
+    100% 0,
+    35.8473px 0,
+    0 37.2258px,
+    0 100%,
+    calc(100% - 34.127px) 100%,
+    100% calc(100% - 33.888px),
+    100% 0
+  );
+  .card__image {
+    width: 100%;
+    height: 282px;
+    clip-path: polygon(
+      100% 0,
+      35.8473px 0,
+      0 37.2258px,
+      0 100%,
+      calc(100% - 34.127px) 100%,
+      100% calc(100% - 33.888px),
+      100% 0
+    );
+    .image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .elem__text {
+    background-color: #351e58;
+    padding: 4rem;
+    .text {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 500;
+    }
+  }
+}
+@media (max-width:1220px) {
+  .elem{
+    .elem__text{
+      .text{
+        font-size: 22px;
+      }
+    }
+  }
+}
+@media (max-width:1020px) {
+  .elem{
+    height: 693px;
+    .elem__text{
+      padding: 2rem;
+      .text{
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (max-width:990px) {
+  .elem{
+    height: 600px;
+  }
+}
+@media (max-width:900px) {
+  .elem{
+    height: 532px;
+  }
+}
+@media (max-width:600px) {
+  .elem{
+    height: 432px;
+    .card__image{
+      height: 230px;
+    }
+    .elem__text{
+      .text{
+        font-size: 16px;
+      }
+    }
+  }
+}
